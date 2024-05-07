@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, rgb(175, 23, 175), rgb(32, 32, 185));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .relogio {
+  width: 560px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(5, 5, 5);
+  border-radius: 5px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+body .relogio .horario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 170px;
+  background-color: rgba(5, 5, 5, 0.9);
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 3px;
+  box-shadow: 0px 0px 10px #fff;
+}
+body .relogio .horario .zero {
+  font-size: 60px;
+  font-weight: bolder;
+}
+body .relogio .horario .tempo {
+  font-size: 10px;
+  font-weight: bolder;
+}
+body .data {
+  color: #fff;
+  padding: 4px;
+  font-weight: bold;
+  font-size: 10;
+  text-shadow: 0.2em 0.2em 0.2em black;
+  border-radius: 6px;
+}/*# sourceMappingURL=style.css.map */
